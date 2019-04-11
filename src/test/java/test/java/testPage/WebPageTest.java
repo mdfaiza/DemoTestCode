@@ -28,7 +28,7 @@ public class WebPageTest {
 	@Test
 	public void test() {
 		
-String name="mahesh";
+String name="test";
 oDriver.get("http://localhost:8081/DemoWebPage/");
 oDriver.findElement(By.id("myText")).sendKeys(name);
 oDriver.findElement(By.xpath("/html/body/button")).click();
